@@ -32,6 +32,10 @@ Up-to-date information on firmware development can be found at:
 
 [github.com/ijsf/wersi-mk1-ex20-re](https://github.com/ijsf/wersi-mk1-ex20-re)
 
+More information:
+
+* [old school firmware dumping @ bitlog.it](http://bitlog.it/re/old-school-eprom-firmware-dumping/)
+
 ## Hardware documentation
 
 At first sight, the interface of the MK1 suggests that it is a simple additive synthesizer capable of adding 32 sine harmonics, similar to the registers of an electric organ.
