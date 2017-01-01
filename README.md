@@ -40,17 +40,19 @@ More information:
 
 At first sight, the interface of the MK1 suggests that it is a simple additive synthesizer capable of adding 32 sine harmonics, similar to the registers of an electric organ.
 
-However, the MK1 actually contains an elaborate implementation of *digital wavetable synthesis*, and came fitted with up to *21 CPUs*!
+However, the MK1 actually contains an elaborate implementation of *digital wavetable synthesis*, and came fitted with up to *22 CPUs*!
 
 Wavetables are used as basis for sound generation, consist of 64 of 32 samples each and are interpolated and resampled to any note frequency after which they are modulated with complex amplitude and frequency envelopes. Fourier transforms are used to translate between the harmonic sliders on the synth's front panel and the actual sound synthesis modules.
 
+Its main logic consists of two *Motorola 68B09 CPUs* (main + coprocessor) with 32 KiB of program ROM, 16 KiB of voice preset ROM, 16 KiB RAM for user programmable presets, 8 KiB slave RAM (256 bytes for each slave CPU) and 8 KiB work RAM for the master CPU.
+
 #### Sound synthesis
 
-Voice sound synthesis is fully digital (e.g. without VCO or DCO), performed by a *Zilog Z8601 CPU* + *NatSemi 0832 DAC* (8-bit), two of which are located on a single *SL-M2* slave sound module. The MK1 synthesizer can be fitted with as much as 10 SL-M2 modules, enabling 20 individual polyphonic voices through a total of 20 CPUs.
+Voice sound synthesis is fully digital (e.g. without VCO or DCO), performed by a *Zilog Z8611 CPU (Z8)* + *NatSemi 0832 DAC* (8-bit), two of which are located on a single *SL-M2* slave sound module. The MK1 synthesizer can be fitted with as much as 10 SL-M2 modules, enabling 20 individual polyphonic voices through a total of 20 CPUs.
 
 #### Envelope modulation
 
-Envelopes for amplitude and frequency modulation can be programmed through a set of predefined envelope modules, each of which can be chained after one another to provide changing ever-changing modulation as time progresses. All envelope calculations are performed by a *Motorola 68B09 CPU* and are converted to analog using a *NatSemi 1232 DAC* (12-bit).
+Envelopes for amplitude and frequency modulation can be programmed through a set of predefined envelope modules, each of which can be chained after one another to provide changing ever-changing modulation as time progresses. All envelope calculations are performed by a second *Motorola 68B09 CPU* (coprocessor) and are converted to analog using a *NatSemi 1232 DAC* (12-bit).
 
 #### Analog filters
 
