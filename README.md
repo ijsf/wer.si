@@ -34,6 +34,7 @@ Up-to-date information on firmware development can be found at:
 
 More information:
 
+* [fixing firmware bugs from 1987 in 2017 @ bitlog.it](http://bitlog.it/re/fixing-firmware-bugs-from-1987-in-2017/)
 * [old school firmware dumping @ bitlog.it](http://bitlog.it/re/old-school-eprom-firmware-dumping/)
 
 ## Hardware documentation
