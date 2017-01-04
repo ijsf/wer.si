@@ -22,20 +22,17 @@ The fact that you are on this page likely means that you are one of the few owne
 
 ## Editor
 
-A modern browser-based editor is currently under development and test, and will soon be released as an open source project.
+Welcome to the long - since 1988 - awaited editor for the Wersi MK1 / EX-20 synthesizers!
+
+The repository at [github.com/ijsf/wersi-mk1-editor](https://github.com/ijsf/wersi-mk1-editor) is currently under active development, and its current state is considered to be *alpha*. This means that setting up the editor will likely require some technical skill, and bugs will be present.
+
+The goal behind this editor is to unlock the Wersi MK1's full sound synthesis potential, by creating a modern and user friendly interface to manipulate its sound synthesis. As such, a large effort has gone into reverse engineering the internal hardware, as well as its MIDI SysEx interface.
+
+The editor itself has been built upon the React framework, using well structured ES2015 class-based design, for maintainability and to help future development. A minimal NodeJS server is provided that compiles the ES2015 code into a HTML web application, which is then locally accessible through a browser.
+
+For browser compatibility, we recommend the latest version of Chrome or Chromium-based browsers. Compatibility beyond these browsers has not been tested as of yet.
 
 <img src="https://pbs.twimg.com/media/CvZI_mvWEAAGYRq.jpg:large" height="400px">
-
-## Firmware
-
-Up-to-date information on firmware development can be found at:
-
-[github.com/ijsf/wersi-mk1-ex20-re](https://github.com/ijsf/wersi-mk1-ex20-re)
-
-More information:
-
-* [fixing firmware bugs from 1987 in 2017 @ bitlog.it](http://bitlog.it/re/fixing-firmware-bugs-from-1987-in-2017/)
-* [old school firmware dumping @ bitlog.it](http://bitlog.it/re/old-school-eprom-firmware-dumping/)
 
 ## Hardware documentation
 
@@ -46,6 +43,12 @@ However, the MK1 actually contains an elaborate implementation of *digital wavet
 Wavetables are used as basis for sound generation, consist of 64 of 32 samples each and are interpolated and resampled to any note frequency after which they are modulated with complex amplitude and frequency envelopes. Fourier transforms are used to translate between the harmonic sliders on the synth's front panel and the actual sound synthesis modules.
 
 Its main logic consists of two *Motorola 68B09 CPUs* (main + coprocessor) with 32 KiB of program ROM, 16 KiB of voice preset ROM, 16 KiB RAM for user programmable presets, 8 KiB slave RAM (256 bytes for each slave CPU) and 8 KiB work RAM for the master CPU.
+
+More information:
+
+* [fixing firmware bugs from 1987 in 2017 @ bitlog.it](http://bitlog.it/re/fixing-firmware-bugs-from-1987-in-2017/)
+* [old school firmware dumping @ bitlog.it](http://bitlog.it/re/old-school-eprom-firmware-dumping/)
+* [github.com/ijsf/wersi-mk1-ex20-re](https://github.com/ijsf/wersi-mk1-ex20-re)
 
 #### Sound synthesis
 
