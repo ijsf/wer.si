@@ -20,6 +20,10 @@ Major efforts in reverse engineering and tracking down original documentation ha
 
 The fact that you are on this page likely means that you are one of the few owners of an original Wersi MK1 or EX20 synthesizer. Sit tight, as you will now finally be able to properly use this synthesizer to your heart's content.
 
+## Sound demos
+
+We would very much like to list some sound demos here. Contact me for more information (see below)!
+
 ## Editor
 
 Welcome to the long - since 1988 - awaited editor for the Wersi MK1 / EX-20 synthesizers!
