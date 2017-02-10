@@ -8,6 +8,17 @@ Until today.
 
 ___
 
+## TL;DR
+
+Just want to get started with your Wersi? Follow these steps:
+
+1. Update your device with a patched firmware EEPROM.<br/>No programmer? Get EEPROM chips for ~25 EUR, if available, from ijsf@wer.si.
+2. Download and run the latest sysexd.<br/>Read instructions at [https://github.com/ijsf/sysexd](https://github.com/ijsf/sysexd).
+3. Download and run the latest editor.<br/>Read instructions at [https://github.com/ijsf/wersi-mk1-editor](https://github.com/ijsf/wersi-mk1-editor).
+4. Browse to [http://localhost:3000](http://localhost:3000).<br/>Start editing!
+
+___
+
 This place has been set up to provide a small knowledge base on these synthesizers, including information on:
 
 * Development of a modern open source browser-based editor.
