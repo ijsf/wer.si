@@ -40,9 +40,9 @@ The repository at [github.com/ijsf/wersi-mk1-editor](https://github.com/ijsf/wer
 
 The goal behind this editor is to unlock the Wersi MK1's full sound synthesis potential, by creating a modern and user friendly interface to manipulate its sound synthesis. As such, a large effort has gone into reverse engineering the internal hardware, as well as its MIDI SysEx interface.
 
-The editor itself has been built upon the React framework, using well structured ES2015 class-based design, for maintainability and to help future development. A minimal NodeJS server is provided that compiles the ES2015 code into a HTML web application, which is then locally accessible through a browser.
-
 For browser compatibility, we recommend the latest version of Chrome or Chromium-based browsers. Compatibility beyond these browsers has not been tested as of yet.
+
+The editor is hosted at [http://edit.wer.si](http://edit.wer.si) and attempts to establish a connection to a locally running sysexd.
 
 <img src="https://pbs.twimg.com/media/CvZI_mvWEAAGYRq.jpg:large" height="400px">
 
