@@ -1,16 +1,14 @@
 # wer.si
 
-Welcome to the strange world of Wersi MK1 / EX20 synthesizers.
+Welcome to the Wersi MK1/EX20 synthesizer knowledge base.
 
-Known as a notoriously difficult and impractical digital synthesizer originally manufactured in the 1980's by West-German manufacturer Wersi, only hardcore button bashing and deep programming would unlock some of its unique and remarkable digital wavetable sound.
-
-Until today.
+This site provides the necessary tools and information to be able to edit the sounds in your synthesizer.
 
 ___
 
 ## TL;DR
 
-Just want to get started with your Wersi? Follow these steps:
+To get started with the editor, follow these steps:
 
 1. Update your device with a patched firmware EEPROM.<br/>No programmer? Get EEPROM chips for ~25 EUR, if available, from ijsf@wer.si.
 2. Download and run the latest sysexd.<br/>Read instructions at [https://github.com/ijsf/sysexd](https://github.com/ijsf/sysexd).
