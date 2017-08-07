@@ -10,7 +10,7 @@ ___
 
 To get started with the editor, follow these steps:
 
-1. Update your device with a patched firmware EEPROM.<br/>No programmer? Get EEPROM chips for ~25 EUR, if available, from ijsf@wer.si.
+1. Update your synthesizer firmware.<br/>Program your own chip, or order one on [Tindie](https://www.tindie.com/products/uy725ad/wersi-mk1ex20-synthesizer-eeproms/).
 2. Download and run the latest sysexd.<br/>Read instructions at [https://github.com/ijsf/sysexd](https://github.com/ijsf/sysexd).
 3. Head over to [http://edit.wer.si](http://edit.wer.si) to launch the editor!
 
