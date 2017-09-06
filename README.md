@@ -10,9 +10,8 @@ ___
 
 To get started with the editor, follow these steps:
 
-1. Update your synthesizer firmware.<br/>Program your own chip, or order one on [Tindie](https://www.tindie.com/products/uy725ad/wersi-mk1ex20-synthesizer-eeproms/).
-2. Download and run the latest sysexd.<br/>Read instructions at [https://github.com/ijsf/sysexd](https://github.com/ijsf/sysexd).
-3. Head over to [http://edit.wer.si](http://edit.wer.si) to launch the editor!
+1. Update your synthesizer firmware chip. Program your own or order one on [Tindie](https://www.tindie.com/products/uy725ad/wersi-mk1ex20-synthesizer-eeproms/).
+2. Head over to [https://ijsf.github.io/wersi-mk1-editor](https://ijsf.github.io/wersi-mk1-editor) to launch the editor!
 
 ___
 
@@ -42,7 +41,7 @@ The goal behind this editor is to unlock the Wersi MK1's full sound synthesis po
 
 For browser compatibility, we recommend the latest version of Chrome or Chromium-based browsers. Compatibility beyond these browsers has not been tested as of yet.
 
-The editor is hosted at [http://edit.wer.si](http://edit.wer.si) and attempts to establish a connection to a locally running sysexd.
+The editor is hosted at [https://ijsf.github.io/wersi-mk1-editor](https://ijsf.github.io/wersi-mk1-editor) and attempts to establish a connection to your synthesizer by using the Web MIDI API.
 
 <img src="https://pbs.twimg.com/media/CvZI_mvWEAAGYRq.jpg:large" height="400px">
 
