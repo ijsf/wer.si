@@ -43,7 +43,7 @@ For browser compatibility, we recommend the latest version of Chrome or Chromium
 
 The editor is hosted at [https://ijsf.github.io/wersi-mk1-editor](https://ijsf.github.io/wersi-mk1-editor) and attempts to establish a connection to your synthesizer by using the Web MIDI API.
 
-<img src="https://pbs.twimg.com/media/CvZI_mvWEAAGYRq.jpg:large" height="400px">
+<img src="https://raw.githubusercontent.com/ijsf/wer.si/master/snapshot5.png">
 
 ## Hardware documentation
 
