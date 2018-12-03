@@ -8,14 +8,15 @@ ___
 
 ## TL;DR
 
-The editor is a piece of software that runs on a host computer and communicates to your synthesizer over MIDI. Due to some bugs in the synthesizer's firmware, you'll have to update your synthesizer's firmware before attempting to run the editor.
+The editor is a piece of web software that runs on a modern browser in your host computer and communicates to your synthesizer over MIDI. Due to some bugs in the synthesizer's firmware, you'll have to update your synthesizer's firmware before attempting to run the editor.
 
 To get started:
 
 1. Update your synthesizer's firmware. Program your own ([github.com/ijsf/wersi-mk1-ex20-re](https://github.com/ijsf/wersi-mk1-ex20-re)) or order one on [Tindie](https://www.tindie.com/products/uy725ad/wersi-mk1ex20-synthesizer-eeproms/) (availability may be limited).
 2. Power on your synthesizer and hook it up to your computer using a MIDI interface.
-3. Head over to [https://ijsf.github.io/wersi-mk1-editor](https://ijsf.github.io/wersi-mk1-editor) and follow the instructions to run the editor on your computer.
-4. Hopefully, you can now start editing your synth sounds.
+3. Make sure you have a compatible browser on your computer capable of WebMIDI (e.g. the latest Chrome or Chromium-based browser with default settings should work).
+4. Use your web browser to browse to the web editor at [https://ijsf.github.io/wersi-mk1-editor](https://ijsf.github.io/wersi-mk1-editor). Follow the instructions and it should start communicating with your synthesizer.
+4. With any luck, you can now start editing your synth sounds.
 
 ___
 
