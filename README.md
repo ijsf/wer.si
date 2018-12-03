@@ -16,8 +16,9 @@ To get started:
 2. Power on your synthesizer and hook it up to your computer using a MIDI interface.
 3. Make sure you have a compatible browser on your computer capable of WebMIDI (e.g. the latest Chrome or Chromium-based browser with default settings should work).
 4. Use your web browser to browse to the web editor at [https://ijsf.github.io/wersi-mk1-editor](https://ijsf.github.io/wersi-mk1-editor). Follow the instructions and it should start communicating with your synthesizer.
-4. With any luck, you can now start editing your synth sounds.
+5. With any luck, you can now start editing your synth sounds.
 
+Please remember that the editor is highly experimental software that contains bugs and does not come with any guarantees. It is open-source software, and any help is much appreciated!
 ___
 
 This place has been set up to provide a small knowledge base on these synthesizers, including information on:
