@@ -85,4 +85,5 @@ ___
 
 This project is no way affiliated with, authorized, maintained, sponsored or endorsed with Wersi nor any of its affiliates or subsidiaries.
 
-> ijsf@wer.si
+> wersi@ijsf.nl
+
