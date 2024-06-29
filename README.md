@@ -19,6 +19,10 @@ To get started:
 5. With any luck, you can now start editing your synth sounds.
 
 Please remember that the editor is highly experimental software that contains bugs and does not come with any guarantees. It is open-source software, and any help is much appreciated!
+
+Other noteworthy projects:
+
+* Wersi SL-M2 Zilog Z8 decapping and ROM reverse engineering at [https://github.com/travisgoodspeed/wersi-slm2-51173](https://github.com/travisgoodspeed/wersi-slm2-51173).
 ___
 
 This place has been set up to provide a small knowledge base on these synthesizers, including information on:
