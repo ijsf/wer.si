@@ -1,8 +1,10 @@
 # wer.si
 
-Welcome to the Wersi MK1/EX20 synthesizer knowledge base.
+Welcome to a small Wersi MK1/EX20 synthesizer knowledge base for those out there with these magnificent pieces of synthesizer hardware.
 
-This site provides the necessary tools and information to be able to edit the sounds in your synthesizer.
+This site provides some information on the hardware, as well as possible tools to be able to edit the sounds in your synthesizer.
+
+_Jan 7th, 2025_: Keep in mind that the editor mentioned on this site is currently no longer maintained, though it is open-source and open for contributions and forks. It is likely that the editor won't function right away without some developer tweaking, because of outdated frameworks and dependencies.
 
 ___
 
@@ -12,7 +14,7 @@ The editor is a piece of web software that runs on a modern browser in your host
 
 To get started:
 
-1. Update your synthesizer's firmware. Program your own ([github.com/ijsf/wersi-mk1-ex20-re](https://github.com/ijsf/wersi-mk1-ex20-re)) or order one on [Tindie](https://www.tindie.com/products/uy725ad/wersi-mk1ex20-synthesizer-eeproms/) (availability may be limited).
+1. Update your synthesizer's firmware, e.g. by programming your own ([github.com/ijsf/wersi-mk1-ex20-re](https://github.com/ijsf/wersi-mk1-ex20-re)).
 2. Power on your synthesizer and hook it up to your computer using a MIDI interface.
 3. Make sure you have a compatible browser on your computer capable of WebMIDI (e.g. the latest Chrome or Chromium-based browser with default settings should work).
 4. Use your web browser to browse to the web editor at [https://ijsf.github.io/wersi-mk1-editor](https://ijsf.github.io/wersi-mk1-editor). Follow the instructions and it should start communicating with your synthesizer.
@@ -68,8 +70,8 @@ Its main logic consists of two *Motorola 68B09 CPUs* (main + coprocessor) with 3
 
 More information:
 
-* [fixing firmware bugs from 1987 in 2017 @ bitlog.it](http://bitlog.it/re/fixing-firmware-bugs-from-1987-in-2017/)
-* [old school firmware dumping @ bitlog.it](http://bitlog.it/re/old-school-eprom-firmware-dumping/)
+* [fixing firmware bugs from 1987 in 2017 @ bitlog.it](https://bitlog.it/20170102_fixing_firmware_bugs_from_1987_in_2017.html)
+* [old school firmware dumping @ bitlog.it](https://bitlog.it/20150709_old_school_eprom_firmware_dumping.html)
 * [github.com/ijsf/wersi-mk1-ex20-re](https://github.com/ijsf/wersi-mk1-ex20-re)
 
 #### Sound synthesis
